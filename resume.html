@@ -4,7 +4,7 @@
 <head>
     <!-- ... (head content) ... -->
     <meta charset="utf-8">
-    <title>My DevOps Projects</title>
+    <title>Your DevOps Projects</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free Website Template" name="keywords">
     <meta content="Free Website Template" name="description">
@@ -33,12 +33,19 @@
         .project-card h3 {
             margin-bottom: 10px;
         }
+
+        #resume .project-card {
+        /* Styles for project cards on the projects.html page */
+        max-width: 100%;
+        /* Add other styles as needed */
+        }
         
     </style>
 </head>
 
 <body>
     <div class="wrapper">
+        <!-- Sidebar and Navbar code remains unchanged -->
         <!-- ... (sidebar and navbar) ... -->
         <div class="sidebar">
             <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
@@ -58,18 +65,19 @@
                 <i class="fas fa-2x fa-angle-double-right text-primary"></i>
             </div>
         </div>
+
         <div class="content">
             <!-- Navbar Start -->
             <div class="container p-0">
                 <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-                    <a href="" class="navbar-brand d-block d-lg-none">Navigation</a>
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">Navigation</a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav m-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="resume.html" class="nav-item nav-link">My Resume</a>
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="resume.html" class="nav-item nav-link active">My Resume</a>
                             <a href="projects.html" class="nav-item nav-link">All Projects</a>
                         </div>
                     </div>
@@ -77,78 +85,33 @@
             </div>
             <!-- Navbar End -->
 
-            <!-- Project Categories -->
-            <!-- Content for Home Page -->
-            <div class="container">
-                <h1>Welcome to my DevOps/Cloud Computing Portfolio Homepage</h1>
-                <section id="iac" class="project-category">
-                    <div class="container bg-white pt-5">
-                    <div class="row blog-item px-3 pb-5">
-                        <div class="col-md-5">
-                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-3.jpg" alt="Image">
-                        </div>
-                        <div class="col-md-7">
-                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Continuous Integration/Continuous Deployment (CI/CD)</h3>
-                            <!-- <div class="d-flex mb-3">
-                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Web Design</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> 15 Comments</small>
-                            </div> -->
-                            <p>
-                                Showcase projects related to automated build and deployment processes
-                            </p>
-                            <!-- List of projects -->
-                            <ul>
-                                <li><a href="projects.html">Terraform Projects</a></li>
-                                <li><a href="projects.html">Ansible Projects</a></li>
-                                <li><a href="projects.html">AWS CloudFormation Projects</a></li>
-                                <li><a href="projects.html">Vagrant Projects</a></li>
-                                <!-- Add more projects as needed -->
-                            </ul>
+            <div id="resume" class="content"></div>
+                <h1 class="mb-4">My Resume</h1>
 
-                           <a class="btn btn-link p-0" href="projects.html">View All Projects<link rel="stylesheet" href=""> <i class="fa fa-angle-right"></i></a>
+                <!-- Project Cards -->
+                <div class="row">
+                    <!-- Project 1 -->
+                    <div class="col-md-12">
+                        <div class="project-card-large">
+                            <div id="resume-content"></div>
                         </div>
                     </div>
-                    <div class="row blog-item px-3 pb-5">
-                        <div class="col-md-5">
-                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-1.jpg" alt="Image">
-                        </div>
-                        <div class="col-md-7">
-                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Infrastructure as Code Projects</h3>
-                            <!-- <div class="d-flex mb-3">
-                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Web Design</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> 15 Comments</small>
-                            </div> -->
-                            <p>
-                                This is a display of projects requiring Terrafom IaaC
-                            </p>
-                            <!-- List of projects -->
-                            <ul>
-                                <li><a href="projects.html">Terraform Projects</a></li>
-                                <li><a href="projects.html">Ansible Projects</a></li>
-                                <li><a href="projects.html">AWS CloudFormation Projects</a></li>
-                                <li><a href="projects.html">Vagrant Projects</a></li>
-                                <!-- Add more projects as needed -->
-                            </ul>
-                            <a class="btn btn-link p-0" href="projects.html">View All Projects<link rel="stylesheet" href=""> <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <!-- Add more projects within this category -->
+
+                    <!-- Add more project cards for each project -->
                 </div>
-            </section>
-            
+            </div>
+
+
+
+
             <!-- JavaScript Libraries -->
+            <!-- Include necessary scripts -->
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
             <script src="lib/easing/easing.min.js"></script>
             <script src="lib/waypoints/waypoints.min.js"></script>
-
-            <!-- Contact Javascript File -->
             <script src="mail/jqBootstrapValidation.min.js"></script>
             <script src="mail/contact.js"></script>
-
-            <!-- Template Javascript -->
             <script src="js/main.js"></script>
 
             <!-- Custom Script to Load Resume Content -->
@@ -173,13 +136,15 @@
                     httpRequest.open('GET', markdownFilePath, true);
                     httpRequest.send();
                 }
+
+                // Load resume content when the page is loaded
+                loadResumeContent();
             </script>
+
+            <!-- Back to Top -->
+            <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
         </div>
     </div>
-
-    <!-- Back to Top -->
-    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
 </body>
 
 </html>
-

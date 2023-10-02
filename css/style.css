@@ -9872,4 +9872,27 @@ h3 {
   list-style-type: none;
 }
 
+.project-page .project-card {
+  /* Styles for project cards on the projects.html page */
+  max-width: 50%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  /* Add other styles as needed */
+}
+
+#project-container .project-card {
+  /* Styles for project cards on the projects.html page */
+  max-width: 100%;
+  /* Add other styles as needed */
+}
+
+#resume .project-card {
+  /* Styles for project cards on the projects.html page */
+  max-width: 100%;
+  /* Add other styles as needed */
+}
+
+
+
 /*# sourceMappingURL=style.css.map */
