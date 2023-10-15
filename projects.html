@@ -58,6 +58,19 @@
         margin-top: 10px; /* Added margin to create space between tool-boxes and link */
         }
 
+        .tool-boxes {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .tool-box {
+            margin: 5px; /* Add some spacing between tool boxes */
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+
+
     </style>
     
 </head>
@@ -113,7 +126,7 @@
                         <!-- Project cards for Terraform Projects -->
                         <div id="commerce-app-1" class="col-md-12">
                             <div class="project-card">
-                                <h3>Commerce-App (CI)</h3>
+                                <h3>Commerce-App (Continuous Integration)</h3>
                                 <p>This is a simple commerce-app project, aimed at showcasing a CI process. The project involves building the app and publishing the artifacts to DockerHub and Nexus.</p>
                                 <h4 class="tools-heading">Key Achivements</h4>
                                 <ul>
@@ -137,7 +150,7 @@
                         </div>
                         <div id="commerce-app-2" class="col-md-12">
                             <div class="project-card">
-                                <h3>Commerce-App (CD)</h3>
+                                <h3>Commerce-App (Continuous Develpment)</h3>
                                 <p>This is a simple commerce-app project, aimed at showcasing a CD process. The project involves building the app and publishing the artifacts to DockerHub and Nexus.</p>
                                 <h4 class="tools-heading">Key Achivements</h4>
                                 <ul>
@@ -161,90 +174,52 @@
                     </div>
                 </div>
 
-                <!-- IaC Projects -->
-                <div id="IaC-projects" class="project-category">
-                    <h2>Infrastructure as Code (IaC) Projects</h2>
+                <!-- Microservices Projects -->
+                <div id="CICD-projects" class="project-category">
+                    <h2>Deployment of Microservices</h2>
                     <div class="row">
-                        <!-- Project cards for Terraform Projects -->
-                        <div id="iac-1" class="col-md-12">
+                        <!-- Project cards for Microservices Projects -->
+                        <div id="commerce-app-1" class="col-md-12">
                             <div class="project-card">
-                                <h3>Terraform AWS - CloudFormation</h3>
-                                <p>This repository contains Terraform code to provision VMs using VirtualBox and an Ansible playbook to deploy an application to the VMs.</p>
+                                <h3>Google Microservices</h3>
+                                <p>This is a simple commerce-app project, aimed at showcasing a CI process. The project involves building the app and publishing the artifacts to DockerHub and Nexus.</p>
                                 <h4 class="tools-heading">Key Achivements</h4>
                                 <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li>Automated CI pipeline ensuring code quality and reliability.</li>
+                                    <li>Seamless integration with Docker for containerization.</li>
+                                    <li>Efficient storage and versioning of artifacts in Nexus.</li>
                                 </ul>
                                 <!-- Tools used -->
                                 <h4 class="tools-heading">Tools Used</h4>
                                 <div class="tool-boxes">
-                                    <div class="tool-box">Terraform</div>
-                                    <div class="tool-box">AWS</div>
-                                    <div class="tool-box">AWS-CloudFormation</div>
+                                    <div class="tool-box">Node.js</div>
+                                    <div class="tool-box">React</div>
+                                    <div class="tool-box">GitHub</div>
+                                    <div class="tool-box">Jenkins</div>
+                                    <div class="tool-box">Docker</div>
+                                    <div class="tool-box">Nexus</div>
                                     <!-- Add more tools as needed -->
                                 </div>
                                 <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Details</a>
-                            </div>
+                            </div>                            
                         </div>
-                        <div id="iac-2" class="col-md-12">
+                        <div id="commerce-app-2" class="col-md-12">
                             <div class="project-card">
-                                <h3>Terraform AWS - EKS</h3>
-                                <p>This repository contains Terraform code to provision VMs using VirtualBox and an Ansible playbook to deploy an application to the VMs.</p>
+                                <h3>Commerce-App (Continuous Develpment)</h3>
+                                <p>This is a simple commerce-app project, aimed at showcasing a CD process. The project involves building the app and publishing the artifacts to DockerHub and Nexus.</p>
                                 <h4 class="tools-heading">Key Achivements</h4>
                                 <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li>Automated and efficient deployment of the commerce application.</li>
+                                    <li>Utilization of GitOps principles for CD with ArgoCD.</li>
+                                    <li>Effective container orchestration and scaling with Kubernetes.</li>
                                 </ul>
                                 <!-- Tools used -->
                                 <h4 class="tools-heading">Tools Used</h4>
                                 <div class="tool-boxes">
-                                    <div class="tool-box">Terraform</div>
-                                    <div class="tool-box">AWS</div>
-                                    <div class="tool-box">AWS-EKS</div>
-                                    <!-- Add more tools as needed -->
-                                </div>
-                                <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Details</a>
-                            </div>
-                        </div>
-                        <div id="iac-3" class="col-md-12">
-                            <div class="project-card">
-                                <h3>Terraform Virtualbox Ansible - Kubespray</h3>
-                                <p>This repository contains Terraform code to provision VMs using VirtualBox and an Ansible playbook to deploy kubernetes cluster using kubespray to the VMs.</p>
-                                <h4 class="tools-heading">Key Achivements</h4>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <!-- Tools used -->
-                                <h4 class="tools-heading">Tools Used</h4>
-                                <div class="tool-boxes">
-                                    <div class="tool-box">Terraform</div>
-                                    <div class="tool-box">AWS</div>
-                                    <div class="tool-box">AWS-EKS</div>
-                                    <!-- Add more tools as needed -->
-                                </div>
-                                <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Details</a>
-                            </div>
-                        </div>
-                        <div id="ica-4" class="col-md-12">
-                            <div class="project-card">
-                                <h3>Vagrant Virtualbox</h3>
-                                <p>This repository contains Vagrant code to provision local VM's for local testing environment.</p>
-                                <h4 class="tools-heading">Key Achivements</h4>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <!-- Tools used -->
-                                <h4 class="tools-heading">Tools Used</h4>
-                                <div class="tool-boxes">
-                                    <div class="tool-box">Vangrant</div>
-                                    <div class="tool-box">Ansible</div>
-                                    <div class="tool-box">VirtualBox</div>
+                                    <div class="tool-box">GitHub</div>
+                                    <div class="tool-box">ArgoCD</div>
+                                    <div class="tool-box">Kubernetes</div>
+                                    <div class="tool-box">Docker</div>
                                     <!-- Add more tools as needed -->
                                 </div>
                                 <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Details</a>
@@ -253,18 +228,19 @@
                         <!-- Add more project cards for Terraform Projects -->
                     </div>
                 </div>
+
                 <!-- NodeJS Projects -->
                 <div id="terraform-projects" class="project-category">
                     <h2>Infrastructure Orchestration and Management</h2>
                     <div class="row">
                         <!-- Project cards for Terraform Projects -->
-                        <div id="terraform-project-7" class="col-md-12">
+                        <div id="sre-1" class="col-md-12">
                             <div class="project-card">
                                 <h3>Bare Metal Kubernetes Cluster Deployment with Kubespray</h3>
-                                <p>This project focuses on setting up and managing Kubernetes clusters on bare metal servers, enabling efficient orchestration of applications and services. The repository was cloned on Github and used for this project.</p>
+                                <p>This project focuses on setting up and managing Kubernetes clusters on bare metal servers, enabling efficient orchestration of applications and services. Kubespray repository was cloned on Github and used for this project.</p>
                                 <h4 class="tools-heading">Key Achivements</h4>
                                 <ul>
-                                    <li>Successful deployment of Kubernetes clusters on bare metal servers.</li>
+                                    <li>Ability to deploy Kubernetes clusters on bare metal servers.</li>
                                     <li>Automation of deployment and scaling processes using Ansible </li>
                                     <li>Streamlined management and monitoring of applications in the bare metal Kubernetes environment.</li>
                                 </ul>
@@ -284,7 +260,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div id="terraform-project-8" class="project-card">
+                            <div id="sre-2" class="project-card">
                                 <h3>Application Performance Monitoring (APM) Implementation</h3>
                                 <p>This project involves the implementation of Application Performance Monitoring (APM) tools to monitor the performance and health of critical applications, ensuring optimal user experience.</p>
                                 <h4 class="tools-heading">Key Achivements</h4>
@@ -307,7 +283,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div id="terraform-project-8" class="project-card">
+                            <div id="sre-3" class="project-card">
                                 <h3>Incident Management and Escalation Automation</h3>
                                 <p>This project focuses on automating incident management and escalation processes, ensuring rapid incident response and minimal downtime for critical systems.</p>
                                 <h4 class="tools-heading">Key Achivements</h4>
