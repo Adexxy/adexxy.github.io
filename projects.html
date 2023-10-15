@@ -24,13 +24,13 @@
     <style>
         /* Add your custom CSS styles here */
         /* Style for project cards/tiles */
-        .project-card {
+        /* .project-card {
             border: 1px solid #ccc;
             padding: 20px;
             margin: 10px;
             max-width: 300px;
             background-color: white; /* Set background color to white */
-        }
+        } */
     
         .project-card h3 {
             margin-bottom: 10px;
@@ -68,6 +68,31 @@
             padding: 10px;
             background-color: #f0f0f0;
             border: 1px solid #ccc;
+        }
+
+        .project-card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            max-width: 300px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .project-card img {
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            /* Add margin to the image */
+            margin-top: 12px; /* Adjust the margin as needed */
+        }
+
+        .view-details-link {
+            align-self: flex-end; /* Align the button to the end (bottom) of the card */
         }
 
 
@@ -145,6 +170,7 @@
                                     <div class="tool-box">Nexus</div>
                                     <!-- Add more tools as needed -->
                                 </div>
+                                <img class="img-fluid mb-4 mb-md-0" src="img/blog-3.jpg" alt="Image">
                                 <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Details</a>
                             </div>                            
                         </div>
@@ -167,8 +193,9 @@
                                     <div class="tool-box">Docker</div>
                                     <!-- Add more tools as needed -->
                                 </div>
+                                <img class="img-fluid mb-4 mb-md-0" src="img/blog-3.jpg" alt="Image">
                                 <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Details</a>
-                            </div>
+                            </div>   
                         </div>
                         <!-- Add more project cards for Terraform Projects -->
                     </div>
