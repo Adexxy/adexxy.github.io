@@ -5,7 +5,7 @@
 - Website: [adexxy.github.io](https://adexxy.github.io/)
 
 ## Summary
-With over two decades of experience in the IT industry and more than 15 years in IT and related fields, I have established a strong foundation in Infrastructure and Cloud technologies, focusing on leveraging technology for business transformation. I have a track record of achieving significant cost savings through cutting-edge cloud solutions and expertise in cloud services, automation, and software delivery, backed by relevant certifications. Proficient in container orchestration technologies, CI/CD pipelines, security, and monitoring, I am passionate about leading teams toward innovation in DevOps. Let's connect to explore how I can contribute to your organization's success.
+With over two decades of experience and more than 15 years in IT and related fields, I have established a strong foundation in Infrastructure and Cloud technologies, focusing on leveraging technology for business transformation. I have a track record of achieving significant cost savings through cutting-edge cloud solutions and expertise in cloud services, automation, and software delivery, backed by relevant certifications. Proficient in container orchestration technologies, CI/CD pipelines, security, and monitoring, I am passionate about leading teams toward innovation in DevOps. Let's connect to explore how I can contribute to your organization's success.
 
 ## Key Skills
 - Agile Methodologies
@@ -121,14 +121,3 @@ May 2016 - Present (7 years 6 months)
 - AWS Cloud Quest: Serverless Developer - Amazon Web Services (AWS)
 - AWS Cloud Quest: Cloud Practitioner - Amazon Web Services (AWS)
 
-## Skills
-- DevOps
-- Linux
-- Terraform
-- Jenkins
-- Ansible
-- Docker Products
-- Kubernetes
-- Amazon Web Services (AWS)
-- Microsoft Azure
-- Git
