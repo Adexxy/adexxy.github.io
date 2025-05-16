@@ -1,123 +1,129 @@
 # Owoade Taiwo
-- Email: adexxy@live.com
-- Phone: +2348035750134
-- LinkedIn: [linkedin.com/in/owoade-taiwo-aws-sre-5b34a943](https://www.linkedin.com/in/owoade-taiwo-aws-sre-5b34a943)
-- Website: [adexxy.github.io](https://adexxy.github.io/)
+
+**Email:** [adexxxy@gmail.com](mailto:adexxxy@gmail.com)
+**Phone:** +2348035750134, +2349092935507
+**LinkedIn:** [linkedin.com/in/owoade-taiwo-5b34a943](https://linkedin.com/in/owoade-taiwo-5b34a943)
+
+---
 
 ## Summary
-With over two decades of experience and more than 15 years in IT and related fields, I have established a strong foundation in Infrastructure and Cloud technologies, focusing on leveraging technology for business transformation. I have a track record of achieving significant cost savings through cutting-edge cloud solutions and expertise in cloud services, automation, and software delivery, backed by relevant certifications. Proficient in container orchestration technologies, CI/CD pipelines, security, and monitoring, I am passionate about leading teams toward innovation in DevOps. Let's connect to explore how I can contribute to your organization's success.
 
-## Key Skills
-- Agile Methodologies
-- Problem-Solving
-- Troubleshooting
-- Analytical Thinking
-- Teamwork
-- Process Improvements
-- Budgeting and Cost Control
-- Evaluating User Requirements
-- Continuous Improvement
-- Resource Allocation
-- Network Design
-- Systems Testing
-- Systems Design Support
-- Technical Solutions
-- Scrum
+DevOps / Cloud engineer with over 6 years of specialized experience in cloud infrastructure, automation, and DevOps practices—supported by a 20-year career in technology, including expertise in physical data center management and design. Proficient in driving transformative cloud solutions across AWS and on-premise environments, I excel in leading teams to enhance efficiency and accelerate software delivery. Adept at version control (Git/GitHub), CI/CD pipeline management (Jenkins/GitLab), container orchestration (Docker Swarm, Kubernetes), Infrastructure as Code (Terraform), and infrastructure management (Ansible). I also possess strong skills in logging and monitoring (ELK Stack, Prometheus, Grafana) as well as Python scripting with unit testing, all aimed at leveraging cloud technologies for sustainable business success and digital transformation.
 
-## Technical Proficiencies
-- Docker: 4-6 years
-- AWS (IAM, RDS, EKS, Lambda): 5-7 years
-- Azure: 3-5 years
-- GCP: 2-4 years
-- Terraform: 4-6 years
-- Ansible: 4-6 years
-- Git: 5-7 years
-- Jenkins: 4-6 years
-- Kubernetes: 4-6 years
-- Linux: 5-7 years
-- MySQL: 5-7 years
-- MongoDB: 4-6 years
-- Nginx: 4-6 years
-- Python: 4-6 years
-- Java: 4-6 years
-- Prometheus: 4-6 years
-- Grafana: 4-6 years
-- Nexus: 3-5 years
-- DevOps: 5-7 years
-- DevSecOps: 3-5 years
+---
+
+## Core Competencies
+
+* **Cross-Team Collaboration:** Aligning technical solutions with business objectives.
+* **Project Leadership:** Building and mentoring high-performing teams.
+* **Cloud & Automation:** Expertise in AWS, Terraform, Ansible, and Kubernetes.
+* **Scalable Architectures:** Designing distributed systems for reliability and performance.
+* **CI/CD Expertise:** Streamlining software automation delivery pipelines with Jenkins and GitLab.
+* **Cloud Networking:** Load Balancing (Nginx, AWS ELB), VPNs, Firewalls, Routing, Switching, High-Availability Architecture
+* **Security & Compliance:** Implementing IAM, secure coding practices, and data privacy standards.
+* **Strategic Solutions Development:** Driving initiatives to reduce complexity and improve resilience.
+* **Innovative Brainstorming:** Facilitating team brainstorming sessions to generate creative solutions and align with project goals.
+
+---
 
 ## Experience
-### DevOps Manager
-Damplex Consulting Limited
-Aug 2023 - Present (3 months)
-- Orchestrated Kubernetes cluster setup, enhancing performance and scalability by 30-60%.
-- Automated infrastructure provisioning, reducing manual intervention by 30%.
-- Established Jenkins pipelines, optimizing CI/CD workflows, and achieving 25% faster software delivery.
-- Implemented monitoring and alerting solutions, ensuring 99.9% application visibility.
-- Deployed containerized applications on Kubernetes, streamlining maintenance and cutting downtime by 15%.
 
-### DevOps Specialist
-Damplex Consulting Limited
-Feb 2023 - Aug 2023 (7 months)
-- Guided clients' cloud migration, enhancing scalability and reducing costs by 20%.
-- Orchestrated cross-functional collaboration, reducing inter-team conflicts by 80%.
-- Led CI/CD pipeline design, accelerating time-to-market by 30%.
-- Implemented IaC, cutting provisioning time by 90% and ensuring consistency.
-- Integrated robust security practices, reducing security risks by 50%.
+### Damplex Consulting Limited, **DevOps Team Lead**
 
-### Assistant General Manager
-First Class Group Limited
-May 2019 - Feb 2023 (3 years 10 months)
-- Ensured the highest user experience and quality standards for all infrastructure cloud solutions, coordinating QA activities with relevant specialists.
-- Developed network security with a zero trust policy for a government secretariat to filter incoming mails.
-- Achieved 99.9999 Data Centre infrastructure uptime.
-- Provided high-level technical support for the organization.
+*Sep 2023 - Present*
 
-### Senior Engineering Manager
-First Class Group Limited
-Apr 2019 - May 2019 (2 months)
-- Managed cloud infrastructure on AWS EC2 and S3 bucket.
-- Oversaw a team of onsite engineers monitoring data center physical infrastructure with zero downtime.
-- Designed and deployed a web-based Computerized Maintenance Management System, reducing MTTR by 30%.
+* Developed a collaborative DevOps workspace using Slack and Jira, reducing team conflicts by 80%.
+* Automated infrastructure provisioning with Terraform and AWS CloudFormation, saving 15 hours per week.
+* Implemented real-time monitoring using Prometheus and Grafana, improving visibility to 99.9%.
+* Deployed containerized applications with Helm on Kubernetes, reducing downtime by 52%.
+* Streamlined CI/CD with Jenkins, accelerating delivery by 60%.
 
-### Engineering Manager
-First Class Group Limited
-Dec 2013 - Mar 2019 (5 years 4 months)
-- Administered engineering activities throughout project life cycles, improving operations processes by 20%.
-- Reduced the cost of materials purchases by more than 15%.
-- Developed quality assurance procedures and manuals, reducing errors by more than 30%.
-- Led the growth of the engineering workforce from 1 engineer to more than 20 engineers and over 70 technicians.
-- Improved Mean Time to Response by 10%, leading to better customer satisfaction.
-- Reduced telecom customer equipment downtimes to a minimum.
-- Managed a team that digitized and migrated the company's archives to S3 bucket (AWS), reducing the risk of missing documents to 0%.
+### Cloud Enthusiasts, **Senior Cloud Engineer**
 
-### Assistant Engineering Manager
-First Class Group Limited
-Dec 2009 - Dec 2013 (4 years 1 month)
-- Introduced small-scale ERP software for Job Costing, increasing productivity by 50%.
-- Designed a Microsoft Access Inventory Management Tracker, improving inventory management by 70%.
-- Designed precision cooling and AC/DC power solutions.
+*Nov 2021 - Present*
 
-### System Engineer
-Freelance
-May 2016 - Present (7 years 6 months)
-- Creates and manages infrastructures on both Windows and Linux environments.
-- Sets up monitoring and alert tools like Prometheus and Grafana.
-- Sets up source code version management with GIT and Github, easing the job of developers.
+* Engineered scalable distributed systems using Vagrant, VirtualBox, and Docker.
+* Automated server provisioning with Ansible, increasing speed by 40%.
+* Managed Git and GitHub workflows with effective branching strategies.
+* Orchestrated containers using Docker Swarm for fault-tolerant systems.
+* Deployed centralized logging using ELK Stack on Docker Swarm.
+* Improved network resilience via load balancing strategies.
+
+### Damplex Consulting Limited, **Senior Cloud Engineer**
+
+*Mar 2023 - Sep 2023*
+
+* Led Kubernetes cluster setup with Helm and Terraform, improving scalability and performance.
+* Supported cloud migrations via AWS services, reducing client costs by 20%.
+* Built CI/CD pipelines with Jenkins, GitLab, and Bitbucket.
+* Implemented IaC using Terraform and CloudFormation, reducing provisioning time by 90%.
+* Enhanced security with IAM, security groups, and AWS WAF.
+
+### First Class Group Limited, **Assistant General Manager**
+
+*May 2019 - Feb 2023*
+
+* Oversaw performance and QA for cloud infrastructure, ensuring user satisfaction.
+* Enforced zero-trust network security policies for a government agency.
+* Achieved 99.9999% uptime in data center operations.
+* Provided high-level technical support to ensure continuous operations.
+
+### First Class Group Limited, **Senior Engineering Manager**
+
+*Apr 2019 - May 2019*
+
+* Managed data center teams, maintaining zero downtime.
+* Developed a web-based maintenance system, reducing MTTR by 30%.
+* Led high-profile infrastructure projects with multidisciplinary teams.
+
+### First Class Group Limited, **Engineering Manager**
+
+*Dec 2013 - Mar 2019*
+
+* Oversaw engineering life cycles, boosting performance by 20%.
+* Reduced costs by 15% through efficient procurement.
+* Developed QA procedures that lowered error rates by over 30%.
+* Scaled engineering team to over 90 personnel.
+* Improved customer satisfaction via faster response times.
+
+### First Class Group Limited, **Assistant Engineering Manager**
+
+*Dec 2009 - Dec 2013*
+
+* Implemented ERP software for job costing, improving productivity by 50%.
+* Built inventory management systems using MS Access, improving tracking by 70%.
+* Designed infrastructure systems for data center optimization.
+
+---
 
 ## Education
-- Ahmadu Bello University
-  - Bachelor of Engineering
+
+**Ahmadu Bello University**
+Bachelor of Engineering in Mechanical Engineering
+
+---
 
 ## Licenses & Certifications
-- Lifelong Learning - CertiProf International
-- Scrum Foundation Professional Certificate - CertiProf
-- NSE 1 - Fortinet Network Security Brazil Limitada
-- NSE 2 - Fortinet Network Security Brazil Limitada
-- Introduction to AWS CloudFormation - Amazon Web Services (AWS)
-- AWS Security Fundamentals (Second Edition) - Amazon Web Services (AWS)
-- AWS Technical Essentials - Amazon Web Services (AWS)
-- AWS Cloud Quest: Solutions Architect - Amazon Web Services (AWS)
-- AWS Cloud Quest: Serverless Developer - Amazon Web Services (AWS)
-- AWS Cloud Quest: Cloud Practitioner - Amazon Web Services (AWS)
 
+* AWS Cloud Quest: Cloud Practitioner – *AWS, Mar 2023*
+* Advanced Testing Practices Using AWS DevOps Tools – *AWS, Feb 2025*
+* AWS Technical Essentials – *AWS, Feb 2023*
+* Subnets, Gateways, and Route Tables Explained – *AWS, Feb 2023*
+* Differences Between Security Groups and NACLs – *AWS, Apr 2023*
+* Cert Prep: PMI Agile Certified Practitioner (PMI-ACP)® – *LinkedIn Learning, Nov 2023*
+* Project Management Professional Certificate Program (PMP) – *Udemy, Apr 2022*
+
+---
+
+## Skills
+
+* GitHub
+* Site Reliability Engineering
+* Continuous Integration and Continuous Delivery (CI/CD)
+* Ansible
+* Amazon Web Services (AWS)
+* Terraform
+* Agile Methodologies
+* Kubernetes
+* Jenkins
+* Docker Swarm
