@@ -116,7 +116,7 @@ DevOps / Cloud engineer with over 6 years of specialized experience in cloud inf
 
 ## 🧠 Skills
 
-`GitHub` • `SRE` • `CI/CD` • `Ansible` • `AWS` • `Terraform` • `Agile` • `Kubernetes` • `Jenkins` • `Docker Swarm`
+`GitHub` • `SRE` • `CI/CD` • `Ansible` • `AWS` • `Terraform` • `Agile` • `Kubernetes` • `Jenkins` • `Docker Swarm` • `Prometheous` • `Grafana` • `Elasticseach` • `ELK Stack`
 
 ---
 
