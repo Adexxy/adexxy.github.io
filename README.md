@@ -30,7 +30,7 @@ DevOps / Cloud engineer with over 6 years of specialized experience in cloud inf
 
 ### Damplex Consulting Limited, **DevOps Team Lead**
 
-*Sep 2023 - Present*
+Sep 2023 - Present
 
 * Developed a collaborative DevOps workspace using Slack and Jira, reducing team conflicts by 80%.
 * Automated infrastructure provisioning with Terraform and AWS CloudFormation, saving 15 hours per week.
@@ -40,7 +40,7 @@ DevOps / Cloud engineer with over 6 years of specialized experience in cloud inf
 
 ### Cloud Enthusiasts, **Senior Cloud Engineer**
 
-*Nov 2021 - Present*
+Nov 2021 - Present
 
 * Engineered scalable distributed systems using Vagrant, VirtualBox, and Docker.
 * Automated server provisioning with Ansible, increasing speed by 40%.
@@ -51,7 +51,7 @@ DevOps / Cloud engineer with over 6 years of specialized experience in cloud inf
 
 ### Damplex Consulting Limited, **Senior Cloud Engineer**
 
-*Mar 2023 - Sep 2023*
+Mar 2023 - Sep 2023
 
 * Led Kubernetes cluster setup with Helm and Terraform, improving scalability and performance.
 * Supported cloud migrations via AWS services, reducing client costs by 20%.
@@ -61,7 +61,7 @@ DevOps / Cloud engineer with over 6 years of specialized experience in cloud inf
 
 ### First Class Group Limited, **Assistant General Manager**
 
-*May 2019 - Feb 2023*
+May 2019 - Feb 2023
 
 * Oversaw performance and QA for cloud infrastructure, ensuring user satisfaction.
 * Enforced zero-trust network security policies for a government agency.
@@ -70,7 +70,7 @@ DevOps / Cloud engineer with over 6 years of specialized experience in cloud inf
 
 ### First Class Group Limited, **Senior Engineering Manager**
 
-*Apr 2019 - May 2019*
+Apr 2019 - May 2019
 
 * Managed data center teams, maintaining zero downtime.
 * Developed a web-based maintenance system, reducing MTTR by 30%.
@@ -78,7 +78,7 @@ DevOps / Cloud engineer with over 6 years of specialized experience in cloud inf
 
 ### First Class Group Limited, **Engineering Manager**
 
-*Dec 2013 - Mar 2019*
+Dec 2013 - Mar 2019
 
 * Oversaw engineering life cycles, boosting performance by 20%.
 * Reduced costs by 15% through efficient procurement.
@@ -88,7 +88,7 @@ DevOps / Cloud engineer with over 6 years of specialized experience in cloud inf
 
 ### First Class Group Limited, **Assistant Engineering Manager**
 
-*Dec 2009 - Dec 2013*
+Dec 2009 - Dec 2013
 
 * Implemented ERP software for job costing, improving productivity by 50%.
 * Built inventory management systems using MS Access, improving tracking by 70%.
