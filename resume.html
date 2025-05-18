@@ -2,82 +2,67 @@
 <html lang="en">
 
 <head>
-    <!-- ... (head content) ... -->
     <meta charset="utf-8">
-    <title>My DevOps Portfolio</title>
+    <title>My DevOps Resume | Owoade Taiwo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free Website Template" name="keywords">
-    <meta content="Free Website Template" name="description">
-
-    <!-- Favicon -->
+    <meta name="description" content="DevOps Resume of Owoade Taiwo, a Cloud Infrastructure & Automation Expert">
+    <meta name="keywords" content="DevOps, Resume, Cloud, Terraform, Ansible, Kubernetes, CI/CD">
     <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
     <style>
-        /* Add your custom CSS styles here */
-        /* Style for project cards/tiles */
-        .project-card {
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin: 10px;
-            max-width: 300px;
-        }
-
-        .project-card h3 {
-            margin-bottom: 10px;
-        }
-
         .project-card-large {
-        /* Styles for project cards on the projects.html page */
-        max-width: 100%;
-        /* Add other styles as needed */
-        background-color: white; /* Set background color to white */
-        }        
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .markdown-section h1, 
+        .markdown-section h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        .markdown-section ul {
+            padding-left: 20px;
+        }
+
+        .markdown-section p {
+            line-height: 1.6;
+        }
     </style>
 </head>
 
 <body>
     <div class="wrapper">
-        <!-- Sidebar and Navbar code remains unchanged -->
-        <!-- ... (sidebar and navbar) ... -->
+        <!-- Sidebar -->
         <div class="sidebar">
             <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
-                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg"
-                    alt="Image">
+                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg" alt="Owoade Taiwo">
                 <h1 class="font-weight-bold">Owoade O. Taiwo</h1>
-                <p class="mb-4">
-                    DevOps / Cloud engineer with over 6 years of specialized experience in cloud infrastructure, automation, and DevOps practices
-                    — supported by a 20-year career in technology, including expertise in physical data center management and design. Proficient in
-                    driving transformative cloud solutions across AWS and on-premise environments, I excel in leading teams to enhance efficiency
-                    and accelerate software delivery. Adept at version control (Git/GitHub), CI/CD pipeline management (Jenkins/GitLab), container
-                    orchestration (Docker Swarm, Kubernetes), Infrastructure as Code (Terraform), and infrastructure management (Ansible). I also
-                    possess strong skills in logging and monitoring (ELK Stack, Prometheus, Grafana) as well as Python scripting with unit testing, all
-                    aimed at leveraging cloud technologies for sustainable business success and digital transformation.
-                </p>
-                <div class="d-flex justify-content-center mb-5">
-                    <a class="btn btn-outline-primary mr-2" href="https://linkedin.com/in/owoade-taiwo-5b34a943"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-                    <a class="btn btn-outline-primary mr-2" href="https://github.com/Adexxy"><i class="fab fa-github"></i> GitHub</a>
+                <p class="mb-4">DevOps / Cloud engineer with 6+ years of experience in cloud automation, AWS, Kubernetes, CI/CD pipelines, and 20+ years in tech.</p>
+                <div class="d-flex justify-content-center mb-4">
+                    <a class="btn btn-outline-primary mr-2" href="https://linkedin.com/in/owoade-taiwo-5b34a943"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary" href="https://github.com/Adexxy"><i class="fab fa-github"></i></a>
                 </div>
-                <a href="mailto:adexxy@live.com" class="btn btn-lg btn-block btn-primary mt-auto">Hire Me</a>
+                <a href="mailto:adexxy@live.com" class="btn btn-lg btn-block btn-primary mt-auto">📩 Hire Me</a>
             </div>
             <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
                 <i class="fas fa-2x fa-angle-double-right text-primary"></i>
             </div>
         </div>
 
+        <!-- Main Content -->
         <div class="content">
-            <!-- Navbar Start -->
+            <!-- Navbar -->
             <div class="container p-0">
                 <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-                    <a href="index.html" class="navbar-brand d-block d-lg-none">Navigation</a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" title="Toggle navigation" aria-label="Toggle navigation">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">Menu</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
@@ -89,68 +74,56 @@
                     </div>
                 </nav>
             </div>
-            <!-- Navbar End -->
 
-            <div id="resume" class="content"></div>
-                <h1 class="mb-4">My Resume</h1>
-
-                <!-- Project Cards -->
-                <div class="row">
-                    <!-- Project 1 -->
-                    <div class="col-md-12">
-                        <div class="project-card-large">
-                            <div id="resume-content"></div>
+            <!-- Resume Section -->
+            <div class="container py-5">
+                <h1 class="text-center mb-4">📄 My Resume</h1>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="project-card-large markdown-section" id="resume-content">
+                            <!-- Loaded from README.md -->
                         </div>
                     </div>
-
-                    <!-- Add more project cards for each project -->
                 </div>
             </div>
 
-
-
-
-            <!-- JavaScript Libraries -->
-            <!-- Include necessary scripts -->
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-            <script src="lib/easing/easing.min.js"></script>
-            <script src="lib/waypoints/waypoints.min.js"></script>
-            <script src="mail/jqBootstrapValidation.min.js"></script>
-            <script src="mail/contact.js"></script>
-            <script src="js/main.js"></script>
-
-            <!-- Custom Script to Load Resume Content -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
-            <script>
-                function loadResumeContent() {
-                    const markdownFilePath = 'README.md';  // Update with your Markdown file path
-                    const targetElementId = 'resume-content';
-                    const converter = new showdown.Converter();
-                    const httpRequest = new XMLHttpRequest();
-                    httpRequest.onreadystatechange = function () {
-                        if (httpRequest.readyState === XMLHttpRequest.DONE) {
-                            if (httpRequest.status === 200) {
-                                const markdownContent = httpRequest.responseText;
-                                const htmlContent = converter.makeHtml(markdownContent);
-                                document.getElementById(targetElementId).innerHTML = htmlContent;
-                            } else {
-                                console.error('Error loading Markdown file:', httpRequest.status, httpRequest.statusText);
-                            }
-                        }
-                    };
-                    httpRequest.open('GET', markdownFilePath, true);
-                    httpRequest.send();
-                }
-
-                // Load resume content when the page is loaded
-                loadResumeContent();
-            </script>
-
             <!-- Back to Top -->
-            <a href="#" class="back-to-top" title="Back to top"><i class="fa fa-angle-double-up"></i></a>
+            <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
         </div>
     </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script>
+        function loadResumeContent() {
+            const markdownFilePath = 'README.md'; // or resume.md
+            const targetElementId = 'resume-content';
+            const converter = new showdown.Converter({ tables: true, strikethrough: true });
+            const httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = function () {
+                if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                    if (httpRequest.status === 200) {
+                        const markdownContent = httpRequest.responseText;
+                        const htmlContent = converter.makeHtml(markdownContent);
+                        document.getElementById(targetElementId).innerHTML = htmlContent;
+                    } else {
+                        document.getElementById(targetElementId).innerHTML = "<p class='text-danger'>Unable to load resume content.</p>";
+                    }
+                }
+            };
+            httpRequest.open('GET', markdownFilePath, true);
+            httpRequest.send();
+        }
+
+        document.addEventListener('DOMContentLoaded', loadResumeContent);
+    </script>
 </body>
 
 </html>
