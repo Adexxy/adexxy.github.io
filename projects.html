@@ -97,175 +97,291 @@
         </div>
 
 
-    <div class="content">
-        <div class="container p-0">
-            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-                <a href="index.html" class="navbar-brand d-block d-lg-none">Navigation</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav m-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="resume.html" class="nav-item nav-link">My Resume</a>
-                        <a href="projects.html" class="nav-item nav-link active">All Projects</a>
+        <div class="content">
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">Navigation</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="resume.html" class="nav-item nav-link">My Resume</a>
+                            <a href="projects.html" class="nav-item nav-link active">All Projects</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Content for All Projects Page -->
+            <div id="project-container" class="container"> <!-- </div><div class="container py-5"> (what was there before)-->
+                <h1 class="text-center mb-4">All Projects</h1>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="project-card-large">
+
+                <!-- CICD Projects -->
+                <div id="CICD-projects" class="project-category">
+                    <h2>Continuous Integration/Continuous Deployment (CI/CD) Projects</h2>
+                    
+                    <div class="row">
+                        <div id="commerce-app-1" class="col-md-12">
+                            <div class="project-card">
+                                <h3>CI for Commerce App – Jenkins, Docker & Nexus</h3>
+                                <p>Automated CI pipeline for a Node.js + React-based commerce application. Code is built, containerized, tested, and published to both DockerHub and Nexus.</p>
+                                <h4 class="tools-heading">Key Achievements</h4>
+                                <ul>
+                                    <li>Automated CI pipeline with build, test, and artifact publishing stages.</li>
+                                    <li>Docker-based packaging ensures consistent deployment environments.</li>
+                                    <li>Versioned artifact storage via Nexus for traceable releases.</li>
+                                </ul>
+                                <h4 class="tools-heading">Tools Used</h4>
+                                <div class="tool-boxes">
+                                    <div class="tool-box">Node.js</div>
+                                    <div class="tool-box">React</div>
+                                    <div class="tool-box">GitHub</div>
+                                    <div class="tool-box">Jenkins</div>
+                                    <div class="tool-box">Docker</div>
+                                    <div class="tool-box">Nexus</div>
+                                </div>
+                                <img class="img-fluid mb-4" src="img/arch-design-3.jpg" alt="CI Pipeline Architecture">
+                                <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Project</a>
+                            </div>
+                        </div>
+
+                        <div id="commerce-app-2" class="col-md-12">
+                            <div class="project-card">
+                                <h3>CD with ArgoCD & Kubernetes – GitOps Deployment</h3>
+                                <p>Implements Continuous Delivery using ArgoCD to deploy the commerce app to a Kubernetes cluster. GitOps methodology ensures declarative and auditable deployments.</p>
+                                <h4 class="tools-heading">Key Achievements</h4>
+                                <ul>
+                                    <li>Automated deployment of containerized services via GitOps workflow.</li>
+                                    <li>Real-time environment sync with Kubernetes through ArgoCD.</li>
+                                    <li>Infrastructure drift management and scalable architecture.</li>
+                                </ul>
+                                <h4 class="tools-heading">Tools Used</h4>
+                                <div class="tool-boxes">
+                                    <div class="tool-box">GitHub</div>
+                                    <div class="tool-box">ArgoCD</div>
+                                    <div class="tool-box">Kubernetes</div>
+                                    <div class="tool-box">Docker</div>
+                                </div>
+                                <img class="img-fluid mb-4" src="img/cd_222.jpg" alt="CD with ArgoCD">
+                                <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Project</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </nav>
+
+                <!-- Microservices Projects -->
+                <div id="microservices-projects" class="project-category">
+                    <h2>Microservices Deployment</h2>
+                    <div class="row">
+                        <div id="microservice-1" class="col-md-12">
+                            <div class="project-card">
+                                <h3>Microservices Deployment – Google Demo App</h3>
+                                <p>This project showcases the deployment of a real-world microservices-based architecture using Kubernetes and GitOps. Components are modular, scalable, and independently deployable.</p>
+                                <h4 class="tools-heading">Key Achievements</h4>
+                                <ul>
+                                    <li>Deployed microservices using CI/CD pipelines and GitOps practices.</li>
+                                    <li>Service discovery, scaling, and resilience configured using Kubernetes.</li>
+                                    <li>Pipeline integration ensures version-controlled, repeatable deployments.</li>
+                                </ul>
+                                <h4 class="tools-heading">Tools Used</h4>
+                                <div class="tool-boxes">
+                                    <div class="tool-box">GitHub</div>
+                                    <div class="tool-box">Jenkins</div>
+                                    <div class="tool-box">Docker</div>
+                                    <div class="tool-box">Kubernetes</div>
+                                    <div class="tool-box">ArgoCD</div>
+                                </div>
+                                <img class="img-fluid mb-4" src="img/microservices.jpg" alt="Microservices Deployment">
+                                <a href="https://github.com/Adexxy/microservices-demo" class="btn btn-primary view-details-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Infrastructure Projects -->
+                <div id="infrastructure-projects" class="project-category">
+                    <h2>Infrastructure Automation & Monitoring</h2>
+                    <div class="row">
+                        <div id="sre-1" class="col-md-12">
+                            <div class="project-card">
+                                <h3>Deploying Bare Metal Kubernetes with Kubespray</h3>
+                                <p>Automates the deployment of a Kubernetes cluster on bare-metal infrastructure using Kubespray. Infrastructure is provisioned with Terraform and configured with Ansible.</p>
+                                <h4 class="tools-heading">Key Achievements</h4>
+                                <ul>
+        <div class="content">
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">Navigation</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="resume.html" class="nav-item nav-link">My Resume</a>
+                            <a href="projects.html" class="nav-item nav-link active">All Projects</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="container py-5">
+                <h1 class="text-center mb-4">All Projects</h1>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="project-card-large">
+
+                <!-- CICD Projects -->
+                <div id="CICD-projects" class="project-category">
+                    <h2>Continuous Integration/Continuous Deployment (CI/CD) Projects</h2>
+                    
+                    <div class="row">
+                        <div id="commerce-app-3" class="col-md-12">
+                            <div class="project-card">
+                                <h3>CI for Commerce App – Jenkins, Docker & Nexus</h3>
+                                <p>Automated CI pipeline for a Node.js + React-based commerce application. Code is built, containerized, tested, and published to both DockerHub and Nexus.</p>
+                                <h4 class="tools-heading">Key Achievements</h4>
+                                <ul>
+                                    <li>Automated CI pipeline with build, test, and artifact publishing stages.</li>
+                                    <li>Docker-based packaging ensures consistent deployment environments.</li>
+                                    <li>Versioned artifact storage via Nexus for traceable releases.</li>
+                                </ul>
+                                <h4 class="tools-heading">Tools Used</h4>
+                                <div class="tool-boxes">
+                                    <div class="tool-box">Node.js</div>
+                                    <div class="tool-box">React</div>
+                                    <div class="tool-box">GitHub</div>
+                                    <div class="tool-box">Jenkins</div>
+                                    <div class="tool-box">Docker</div>
+                                    <div class="tool-box">Nexus</div>
+                                </div>
+                                <img class="img-fluid mb-4" src="img/arch-design-3.jpg" alt="CI Pipeline Architecture">
+                                <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Project</a>
+                            </div>
+                        </div>
+
+                        <div id="commerce-app-4" class="col-md-12">
+                            <div class="project-card">
+                                <h3>CD with ArgoCD & Kubernetes – GitOps Deployment</h3>
+                                <p>Implements Continuous Delivery using ArgoCD to deploy the commerce app to a Kubernetes cluster. GitOps methodology ensures declarative and auditable deployments.</p>
+                                <h4 class="tools-heading">Key Achievements</h4>
+                                <ul>
+                                    <li>Automated deployment of containerized services via GitOps workflow.</li>
+                                    <li>Real-time environment sync with Kubernetes through ArgoCD.</li>
+                                    <li>Infrastructure drift management and scalable architecture.</li>
+                                </ul>
+                                <h4 class="tools-heading">Tools Used</h4>
+                                <div class="tool-boxes">
+                                    <div class="tool-box">GitHub</div>
+                                    <div class="tool-box">ArgoCD</div>
+                                    <div class="tool-box">Kubernetes</div>
+                                    <div class="tool-box">Docker</div>
+                                </div>
+                                <img class="img-fluid mb-4" src="img/cd_222.jpg" alt="CD with ArgoCD">
+                                <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Microservices Projects -->
+                <div id="microservices-projects" class="project-category">
+                    <h2>Microservices Deployment</h2>
+                    <div class="row">
+                        <div id="microservice-1" class="col-md-12">
+                            <div class="project-card">
+                                <h3>Microservices Deployment – Google Demo App</h3>
+                                <p>This project showcases the deployment of a real-world microservices-based architecture using Kubernetes and GitOps. Components are modular, scalable, and independently deployable.</p>
+                                <h4 class="tools-heading">Key Achievements</h4>
+                                <ul>
+                                    <li>Deployed microservices using CI/CD pipelines and GitOps practices.</li>
+                                    <li>Service discovery, scaling, and resilience configured using Kubernetes.</li>
+                                    <li>Pipeline integration ensures version-controlled, repeatable deployments.</li>
+                                </ul>
+                                <h4 class="tools-heading">Tools Used</h4>
+                                <div class="tool-boxes">
+                                    <div class="tool-box">GitHub</div>
+                                    <div class="tool-box">Jenkins</div>
+                                    <div class="tool-box">Docker</div>
+                                    <div class="tool-box">Kubernetes</div>
+                                    <div class="tool-box">ArgoCD</div>
+                                </div>
+                                <img class="img-fluid mb-4" src="img/microservices.jpg" alt="Microservices Deployment">
+                                <a href="https://github.com/Adexxy/microservices-demo" class="btn btn-primary view-details-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Infrastructure Projects -->
+                <div id="infrastructure-projects" class="project-category">
+                    <h2>Infrastructure Automation & Monitoring</h2>
+                    <div class="row">
+                        <div id="sre-1" class="col-md-12">
+                            <div class="project-card">
+                                <h3>Deploying Bare Metal Kubernetes with Kubespray</h3>
+                                <p>Automates the deployment of a Kubernetes cluster on bare-metal infrastructure using Kubespray. Infrastructure is provisioned with Terraform and configured with Ansible.</p>
+                                <h4 class="tools-heading">Key Achievements</h4>
+                                <ul>
+                                    <li>Provisioned multi-node Kubernetes cluster from scratch on Vagrant VMs.</li>
+                                    <li>Automated OS setup and K8s installation via Kubespray + Ansible.</li>
+                                    <li>Enabled high-availability, scalable bare-metal infrastructure.</li>
+                                </ul>
+                                <h4 class="tools-heading">Tools Used</h4>
+                                <div class="tool-boxes">
+                                    <div class="tool-box">Vagrant</div>
+                                    <div class="tool-box">Terraform</div>
+                                    <div class="tool-box">Ansible</div>
+                                    <div class="tool-box">Kubernetes</div>
+                                    <div class="tool-box">Kubespray</div>
+                                    <div class="tool-box">Bare Metal</div>
+                                </div>
+                                <img class="img-fluid mb-4" src="img/kubespray.jpg" alt="Kubespray Deployment">
+                                <a href="https://github.com/Adexxy/kubespray" class="btn btn-primary view-details-link">View Project</a>
+                            </div>
+                        </div>
+
+                        <div id="sre-2" class="col-md-12">
+                            <div class="project-card">
+                                <h3>Monitoring Kubernetes Clusters with Prometheus & Grafana</h3>
+                                <p>Implements a full APM (Application Performance Monitoring) stack to visualize system health and performance. Dashboards include custom metrics and alerting for proactive issue resolution.</p>
+                                <h4 class="tools-heading">Key Achievements</h4>
+                                <ul>
+                                    <li>Instrumented microservices with Prometheus exporters and metrics.</li>
+                                    <li>Designed Grafana dashboards to track application KPIs and cluster health.</li>
+                                    <li>Improved uptime and performance via proactive monitoring.</li>
+                                </ul>
+                                <h4 class="tools-heading">Tools Used</h4>
+                                <div class="tool-boxes">
+                                    <div class="tool-box">Prometheus</div>
+                                    <div class="tool-box">Grafana</div>
+                                    <div class="tool-box">Kubernetes</div>
+                                    <div class="tool-box">Helm</div>
+                                    <div class="tool-box">Docker</div>
+                                </div>
+                                <img class="img-fluid mb-4" src="img/prometheus1.png" alt="Monitoring Stack">
+                                <a href="https://github.com/Adexxy/k8s-monitoring-stack" class="btn btn-primary view-details-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Add updated content for all project categories -->
+                <!-- This includes CI/CD, Microservices Deployment, and Infrastructure Management -->
+                <!-- Ensure the language is concise, professional, and technically aligned with your portfolio goals -->
+
+                <!-- Existing project sections remain structurally intact -->
+                <!-- You can reuse and update each card’s descriptions, headings, and achievements to match tone -->
+
+                <!-- Suggestion: copy updated card templates and revise language, tools, etc. per the pattern already applied -->
+            </div>
         </div>
-
-        <div class="container py-5">
-            <h1 class="text-center mb-4">All Projects</h1>
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="project-card-large">
-
-            <!-- CICD Projects -->
-            <div id="CICD-projects" class="project-category">
-                <h2>Continuous Integration/Continuous Deployment (CI/CD) Projects</h2>
-                
-                <div class="row">
-                    <div id="commerce-app-1" class="col-md-12">
-                        <div class="project-card">
-                            <h3>CI for Commerce App – Jenkins, Docker & Nexus</h3>
-                            <p>Automated CI pipeline for a Node.js + React-based commerce application. Code is built, containerized, tested, and published to both DockerHub and Nexus.</p>
-                            <h4 class="tools-heading">Key Achievements</h4>
-                            <ul>
-                                <li>Automated CI pipeline with build, test, and artifact publishing stages.</li>
-                                <li>Docker-based packaging ensures consistent deployment environments.</li>
-                                <li>Versioned artifact storage via Nexus for traceable releases.</li>
-                            </ul>
-                            <h4 class="tools-heading">Tools Used</h4>
-                            <div class="tool-boxes">
-                                <div class="tool-box">Node.js</div>
-                                <div class="tool-box">React</div>
-                                <div class="tool-box">GitHub</div>
-                                <div class="tool-box">Jenkins</div>
-                                <div class="tool-box">Docker</div>
-                                <div class="tool-box">Nexus</div>
-                            </div>
-                            <img class="img-fluid mb-4" src="img/arch-design-3.jpg" alt="CI Pipeline Architecture">
-                            <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Project</a>
-                        </div>
-                    </div>
-
-                    <div id="commerce-app-2" class="col-md-12">
-                        <div class="project-card">
-                            <h3>CD with ArgoCD & Kubernetes – GitOps Deployment</h3>
-                            <p>Implements Continuous Delivery using ArgoCD to deploy the commerce app to a Kubernetes cluster. GitOps methodology ensures declarative and auditable deployments.</p>
-                            <h4 class="tools-heading">Key Achievements</h4>
-                            <ul>
-                                <li>Automated deployment of containerized services via GitOps workflow.</li>
-                                <li>Real-time environment sync with Kubernetes through ArgoCD.</li>
-                                <li>Infrastructure drift management and scalable architecture.</li>
-                            </ul>
-                            <h4 class="tools-heading">Tools Used</h4>
-                            <div class="tool-boxes">
-                                <div class="tool-box">GitHub</div>
-                                <div class="tool-box">ArgoCD</div>
-                                <div class="tool-box">Kubernetes</div>
-                                <div class="tool-box">Docker</div>
-                            </div>
-                            <img class="img-fluid mb-4" src="img/cd_222.jpg" alt="CD with ArgoCD">
-                            <a href="https://github.com/Adexxy/my-portfolio-project-2#readme" class="btn btn-primary view-details-link">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Microservices Projects -->
-            <div id="microservices-projects" class="project-category">
-                <h2>Microservices Deployment</h2>
-                <div class="row">
-                    <div id="microservice-1" class="col-md-12">
-                        <div class="project-card">
-                            <h3>Microservices Deployment – Google Demo App</h3>
-                            <p>This project showcases the deployment of a real-world microservices-based architecture using Kubernetes and GitOps. Components are modular, scalable, and independently deployable.</p>
-                            <h4 class="tools-heading">Key Achievements</h4>
-                            <ul>
-                                <li>Deployed microservices using CI/CD pipelines and GitOps practices.</li>
-                                <li>Service discovery, scaling, and resilience configured using Kubernetes.</li>
-                                <li>Pipeline integration ensures version-controlled, repeatable deployments.</li>
-                            </ul>
-                            <h4 class="tools-heading">Tools Used</h4>
-                            <div class="tool-boxes">
-                                <div class="tool-box">GitHub</div>
-                                <div class="tool-box">Jenkins</div>
-                                <div class="tool-box">Docker</div>
-                                <div class="tool-box">Kubernetes</div>
-                                <div class="tool-box">ArgoCD</div>
-                            </div>
-                            <img class="img-fluid mb-4" src="img/microservices.jpg" alt="Microservices Deployment">
-                            <a href="https://github.com/Adexxy/microservices-demo" class="btn btn-primary view-details-link">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Infrastructure Projects -->
-            <div id="infrastructure-projects" class="project-category">
-                <h2>Infrastructure Automation & Monitoring</h2>
-                <div class="row">
-                    <div id="sre-1" class="col-md-12">
-                        <div class="project-card">
-                            <h3>Deploying Bare Metal Kubernetes with Kubespray</h3>
-                            <p>Automates the deployment of a Kubernetes cluster on bare-metal infrastructure using Kubespray. Infrastructure is provisioned with Terraform and configured with Ansible.</p>
-                            <h4 class="tools-heading">Key Achievements</h4>
-                            <ul>
-                                <li>Provisioned multi-node Kubernetes cluster from scratch on Vagrant VMs.</li>
-                                <li>Automated OS setup and K8s installation via Kubespray + Ansible.</li>
-                                <li>Enabled high-availability, scalable bare-metal infrastructure.</li>
-                            </ul>
-                            <h4 class="tools-heading">Tools Used</h4>
-                            <div class="tool-boxes">
-                                <div class="tool-box">Vagrant</div>
-                                <div class="tool-box">Terraform</div>
-                                <div class="tool-box">Ansible</div>
-                                <div class="tool-box">Kubernetes</div>
-                                <div class="tool-box">Kubespray</div>
-                                <div class="tool-box">Bare Metal</div>
-                            </div>
-                            <img class="img-fluid mb-4" src="img/kubespray.jpg" alt="Kubespray Deployment">
-                            <a href="https://github.com/Adexxy/kubespray" class="btn btn-primary view-details-link">View Project</a>
-                        </div>
-                    </div>
-
-                    <div id="sre-2" class="col-md-12">
-                        <div class="project-card">
-                            <h3>Monitoring Kubernetes Clusters with Prometheus & Grafana</h3>
-                            <p>Implements a full APM (Application Performance Monitoring) stack to visualize system health and performance. Dashboards include custom metrics and alerting for proactive issue resolution.</p>
-                            <h4 class="tools-heading">Key Achievements</h4>
-                            <ul>
-                                <li>Instrumented microservices with Prometheus exporters and metrics.</li>
-                                <li>Designed Grafana dashboards to track application KPIs and cluster health.</li>
-                                <li>Improved uptime and performance via proactive monitoring.</li>
-                            </ul>
-                            <h4 class="tools-heading">Tools Used</h4>
-                            <div class="tool-boxes">
-                                <div class="tool-box">Prometheus</div>
-                                <div class="tool-box">Grafana</div>
-                                <div class="tool-box">Kubernetes</div>
-                                <div class="tool-box">Helm</div>
-                                <div class="tool-box">Docker</div>
-                            </div>
-                            <img class="img-fluid mb-4" src="img/prometheus1.png" alt="Monitoring Stack">
-                            <a href="https://github.com/Adexxy/k8s-monitoring-stack" class="btn btn-primary view-details-link">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Add updated content for all project categories -->
-            <!-- This includes CI/CD, Microservices Deployment, and Infrastructure Management -->
-            <!-- Ensure the language is concise, professional, and technically aligned with your portfolio goals -->
-
-            <!-- Existing project sections remain structurally intact -->
-            <!-- You can reuse and update each card’s descriptions, headings, and achievements to match tone -->
-
-            <!-- Suggestion: copy updated card templates and revise language, tools, etc. per the pattern already applied -->
-        </div>
-    </div>
 </div>
 
 </body>
